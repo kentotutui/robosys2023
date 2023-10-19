@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyright Text: 2023 Kento Tsutsui
 import sys
 
 def tonum(s):
