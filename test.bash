@@ -13,6 +13,12 @@ res=0
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
+out=$(seq 10 | ./plus)
+[ "${out}" = 55 ] || ng ${LINENO}
+
+out=$(seq 100 | ./plus)
+[ "${out}" = 5050 ] || ng ${LINENO}
+
 ### STRANGE INPUT ###
 out=$(echo a| ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
