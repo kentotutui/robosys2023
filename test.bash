@@ -9,11 +9,11 @@ ng(){
 
 res=0
 
-### I/O TEST ###
+### plus TEST ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
-### STRANGE INPUT ##a#
+### STRANGE INPUT ###
 out=$(echo a| ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
@@ -25,6 +25,10 @@ out=$(echo あ| ./plus)
 out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
+
+### omikuzi TEST ###
+out=$(./omikuzi)
+[ "$?" = 0 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
