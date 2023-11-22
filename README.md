@@ -9,9 +9,10 @@
     * テスト済み: 3.7~3.10
 
 ## テスト環境
-  * Ubuntu 22.04.2
+  * Ubuntu 22.04.2 LTS
 
 ## インストール方法
+使用する場合は、下記コマンドを打ち込み適当な場所にクローンしてください。
 
 ```shell
 git clone https://github.com/kentotutui/robosys2023.git

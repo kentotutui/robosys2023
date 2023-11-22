@@ -4,11 +4,12 @@
 
 import random
 
-f = open('omikuzi.txt', 'r', encoding='UTF-8')
+omikuzi = open('omikuzi.txt', 'r', encoding='UTF-8')
 
-data = f.read().split("\n")
+
+data = omikuzi.read().split("\n")
 data_size = len(data)
 data_random = data[random.randrange(data_size-1)]
 print(data_random)
 
-f.close()
+omikuzi.close()
