@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+# SPDX-FileCopyright Text: 2023 Kento Tsutsui
+# SPDX-License-Identifier: BSD-3-Clause
+
+import random
+
+f = open('omikuzi.txt', 'r', encoding='UTF-8')
+
+data = f.read().split("\n")
+data_size = len(data)
+data_random = data[random.randrange(data_size-1)]
+print(data_random)
+
+f.close()
