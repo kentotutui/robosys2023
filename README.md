@@ -1,10 +1,11 @@
-# plus & omikuzi robosys2023
+# plus & omikuzi 
+## robosys2023
 
 千葉工業大学 未来ロボティクス学科 2023年度 ロボットシステム学内で行った内容に、課題で作成したファイルを追加したものです。
 
 [![test](https://github.com/kentotutui/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kentotutui/robosys2023/actions/workflows/test.yml)
 
-このリポジトリ内の[omikuzi](https://github.com/kentotutui/robosys2023/blob/main/omikuzi)は、[Yuto2511](https://github.com/hide4096/robosys2022_Yuto2511.git)内の[todays_dinner](https://github.com/hide4096/robosys2022_Yuto2511/blob/main/todays_dinner)を参考に作られています。
+このリポジトリ内の[omikuzi](https://github.com/kentotutui/robosys2023/blob/main/omikuzi)は、[Yuto2511](https://github.com/hide4096/robosys2022_Yuto2511.git)の[todays_dinner](https://github.com/hide4096/robosys2022_Yuto2511/blob/main/todays_dinner)を参考に作られています。
 
 ## 必要なソフトウェア
   * Python
