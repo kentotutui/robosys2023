@@ -5,7 +5,7 @@
 
 [![test](https://github.com/kentotutui/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kentotutui/robosys2023/actions/workflows/test.yml)
 
-このリポジトリ内の[omikuzi](https://github.com/kentotutui/robosys2023/blob/main/omikuzi)は、[Yuto2511](https://github.com/hide4096/robosys2022_Yuto2511.git)の[todays_dinner](https://github.com/hide4096/robosys2022_Yuto2511/blob/main/todays_dinner)を参考に作られています。
+このリポジトリ内の[omikuzi](https://github.com/kentotutui/robosys2023/blob/main/omikuzi)は、BSD-3-Clauseライセンスで公開されている[Yuto2511](https://github.com/hide4096/robosys2022_Yuto2511.git)の[todays_dinner](https://github.com/hide4096/robosys2022_Yuto2511/blob/main/todays_dinner)(© 2022 Yamaguchi Yuto)を参考に作られています。
 
 ## 必要なソフトウェア
   * Python
