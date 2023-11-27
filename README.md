@@ -30,6 +30,13 @@ $ seq 5 | ./plus
 15
 ```
 
+マイナスの値が入力された場合、計算できないため"-1"が出力されます。
+
+```shell
+$ seq -3 | ./plus
+-1
+```
+
 ## omikuzi 使い方
 一日の運勢を占ってくれるコマンドです。
 [omikuzi.txt](https://github.com/kentotutui/robosys2023/blob/main/omikuzi.txt)内のどれかをランダムで出力します。
