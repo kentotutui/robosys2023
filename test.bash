@@ -20,23 +20,23 @@ out=$(seq 100 | ./plus)
 [ "${out}" = 5050 ] || ng ${LINENO}
 
 out=$(seq 0 | ./plus)
-[ "${out}" = -1 ] || ng ${LINENO}
+[ "${out}" = "Error" ] || ng ${LINENO}
 
 out=$(seq -10 | ./plus)
-[ "${out}" =  -1 ] || ng ${LINENO}
+[ "${out}" =  "Error" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo a| ./plus)
 #[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = -1 ] || ng ${LINENO}
+[ "${out}" = "Error" ] || ng ${LINENO}
 
 out=$(echo あ| ./plus)
 #[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = -1 ] || ng ${LINENO}
+[ "${out}" = "Error" ] || ng ${LINENO}
 
 out=$(echo | ./plus) #空文字
 #[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = -1 ] || ng ${LINENO}
+[ "${out}" = "Error" ] || ng ${LINENO}
 
 ### omikuzi TEST ###
 out=$(./omikuzi)

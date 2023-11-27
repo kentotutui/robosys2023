@@ -18,4 +18,4 @@ try:
     print(ans)
       
 except:
-    print(-1)
+    print("Error")
