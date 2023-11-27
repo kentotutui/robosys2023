@@ -9,7 +9,15 @@ def tonum(s):
     except:
         return float(s)
 
-ans = 0
-for line in sys.stdin:
-    ans += tonum(line)
-print(ans)
+ans = 1
+
+try:
+    F = int(input())
+    if F >= 0:
+        for line in sys.stdin:
+            ans += tonum(line)
+        print(ans)
+    else:
+        print("計算できません")
+except:
+    print(-1)

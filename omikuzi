@@ -6,7 +6,6 @@ import random
 
 omikuzi = open('omikuzi.txt', 'r', encoding='UTF-8')
 
-
 data = omikuzi.read().split("\n")
 data_size = len(data)
 data_random = data[random.randrange(data_size-1)]

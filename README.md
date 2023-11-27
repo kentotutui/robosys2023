@@ -32,6 +32,7 @@ $ seq 5 | ./plus
 
 ## omikuzi 使い方
 一日の運勢を占ってくれるコマンドです。
+[omikuzi.txt](https://github.com/kentotutui/robosys2023/blob/main/omikuzi.txt)内のどれかをランダムで出力します。
 
 ```shell
 $ ./omikuzi
